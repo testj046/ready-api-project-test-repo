@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="beeaca1d-0611-4f89-a14c-dad09b00cde3" activeEnvironment="Default environment" name="ready-api-test-git-commit" resourceRoot="" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="beeaca1d-0611-4f89-a14c-dad09b00cde3fileName">ready-api-test-git-commit</con:setting>
+  </con:settings>
+  <con:vcsConfiguration>
+    <con:vcsName>Git</con:vcsName>
+    <con:repositoryIdentifier>https://github.com/testj046/ready-api-project-test-repo.git</con:repositoryIdentifier>
+  </con:vcsConfiguration>
+  <con:requirements/>
+  <con:properties/>
+  <con:wssContainer/>
+  <con:databaseConnectionContainer/>
+  <con:oAuth2ProfileContainer/>
+  <con:reporting/>
+  <con:authRepository/>
+</con:soapui-project>
