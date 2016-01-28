@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:operation id="199a57da-6d24-48fa-8fdf-c9dfadd8dec1" isOneWay="false" action="http://localhost/test_service/Service1.asmx/getArrayInt" name="getArrayInt" bindingOperationName="getArrayInt" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="199a57da-6d24-48fa-8fdf-c9dfadd8dec1fileName">getArrayInt</con:setting></con:settings><con:call id="3bb0bb5a-aba4-453c-8c7a-8e569c5a6e95" name="Request 1" defaultOutgoingWss="" defaultIncomingWss=""><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://rapis02.aqa.com.ru/SOAP/Service1.asmx</con:endpoint><con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:ser="http://localhost/test_service/Service1.asmx">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <ser:getArrayInt>\r
+         <!--Optional:-->\r
+         <ser:test>\r
+            <!--Zero or more repetitions:-->\r
+            <ser:int>?</ser:int>\r
+         </ser:test>\r
+      </ser:getArrayInt>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/Test_serviceSoap/getArrayIntRequest"/></con:call></con:operation>

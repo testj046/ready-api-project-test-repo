@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="getArrayInt" id="854a9157-cf28-44c6-a0a1-709b0a9f6d3a" interface="Test_serviceSoap" operation="getArrayInt" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="854a9157-cf28-44c6-a0a1-709b0a9f6d3afileName">getArrayInt</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchXPath/><con:response name="Response 1" id="368b3114-9ae7-4cd7-8404-c837588dc06c" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <getArrayIntResponse xmlns="http://localhost/test_service/Service1.asmx">
+         <getArrayIntResult>
+            <int>1</int>
+            <int>2</int>
+            <int>3</int>
+         </getArrayIntResult>
+      </getArrayIntResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/getArrayInt"/></con:response><con:dispatchConfig/></con:mockOperation>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:mockOperation name="HelloWorld" id="2b561377-a846-4911-8ec7-9577d0f87f4c" interface="Test_serviceSoap" operation="HelloWorld" xmlns:con="http://eviware.com/soapui/config"><con:settings><con:setting id="2b561377-a846-4911-8ec7-9577d0f87f4cfileName">HelloWorld</con:setting></con:settings><con:defaultResponse>Response 1</con:defaultResponse><con:dispatchStyle>SEQUENCE</con:dispatchStyle><con:dispatchXPath/><con:response name="Response 1" id="5be8e132-c96a-453d-ab84-e3704b237836" httpResponseStatus="200" encoding="UTF-8" dataSource=""><con:settings/><con:responseContent><![CDATA[<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+   <soap:Body>
+      <HelloWorldResponse xmlns="http://localhost/test_service/Service1.asmx">
+         <HelloWorldResult>Hello World</HelloWorldResult>
+      </HelloWorldResponse>
+   </soap:Body>
+</soap:Envelope>]]></con:responseContent><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://localhost/test_service/Service1.asmx/HelloWorld"/></con:response><con:dispatchConfig/></con:mockOperation>
