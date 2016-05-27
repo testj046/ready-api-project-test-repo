@@ -5,9 +5,7 @@
   </con:settings>
   <con:testStep type="delay" name="Delay" id="9a592d59-4b10-4215-9514-67faa01988d1">
     <con:settings/>
-    <con:config>
-      <delay>1000</delay>
-    </con:config>
+    <con:config><delay>1001</delay></con:config>
   </con:testStep>
   <con:properties/>
   <con:reportParameters/>
