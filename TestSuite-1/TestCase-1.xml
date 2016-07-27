@@ -3,7 +3,7 @@
   <con:settings>
     <con:setting id="816db12c-97ee-43cf-88d4-4e7a3a7303d1fileName">TestCase-1</con:setting>
   </con:settings>
-  <con:testStep type="delay" name="Delay" id="9a592d59-4b10-4215-9514-67faa01988d1">
+  <con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="delay" name="Delay" id="9a592d59-4b10-4215-9514-67faa01988d1">
     <con:settings/>
     <con:config>
       <delay>1000</delay>
@@ -11,4 +11,4 @@
   </con:testStep>
   <con:properties/>
   <con:reportParameters/>
-</con:testCase>
+<con:breakPoints><con:testStepId>9a592d59-4b10-4215-9514-67faa01988d1</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase>
