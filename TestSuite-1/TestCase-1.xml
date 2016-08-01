@@ -9,6 +9,16 @@
       <delay>1000</delay>
     </con:config>
   </con:testStep>
-  <con:properties/>
+  <con:testStep type="groovy" name="Groovy Script" id="c678eb42-6941-438e-a4b0-f66a9a1949f9"><con:settings/><con:config><script>import java.lang.reflect.Field;
+log.error("vafan");
+log.error(java.net.Authenticator.class.getDeclaredFields().length);
+for(Field f: java.net.Authenticator.class.getDeclaredFields()){
+	log.error(f)
+}
+
+def f = java.net.Authenticator.class.getDeclaredField("theAuthenticator")
+f.setAccessible(true);
+f.get(null).getClass().getName()
+f.setAccessible(false);</script></con:config></con:testStep><con:properties/>
   <con:reportParameters/>
 </con:testCase>
