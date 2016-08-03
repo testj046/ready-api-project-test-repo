@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:soapui-project id="beeaca1d-0611-4f89-a14c-dad09b00cde3" activeEnvironment="Default environment" name="ready-api-test-git-commit" resourceRoot="" lastOpened="2016-08-03T13:45:40.473+02:00" xmlns:con="http://eviware.com/soapui/config">
+<con:soapui-project id="beeaca1d-0611-4f89-a14c-dad09b00cde3" activeEnvironment="Default environment" name="ready-api-test-git-commit" resourceRoot="" lastOpened="2016-08-03T13:47:15.012+02:00" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="beeaca1d-0611-4f89-a14c-dad09b00cde3fileName">ready-api-test-git-commit</con:setting>
   </con:settings>
