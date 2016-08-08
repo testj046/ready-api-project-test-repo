@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:testCase id="816db12c-97ee-43cf-88d4-4e7a3a7303d1" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" xmlns:con="http://eviware.com/soapui/config">
+<con:testCase id="816db12c-97ee-43cf-88d4-4e7a3a7303d1" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1a" searchProperties="true" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="816db12c-97ee-43cf-88d4-4e7a3a7303d1fileName">TestCase-1</con:setting>
   </con:settings>
   <con:savedRecentRuns>1</con:savedRecentRuns><con:testStep type="delay" name="Delay" id="9a592d59-4b10-4215-9514-67faa01988d1">
     <con:settings/>
-    <con:config><delay>10000</delay></con:config>
+    <con:config>
+      <delay>1000</delay>
+    </con:config>
   </con:testStep>
-  <con:properties/>
+  <con:testStep type="restrequest" name="REST Request" id="e55e00f3-65e2-485a-b583-e512a7e1a64b"><con:settings/><con:config service="REST Service 1" resourcePath="/helloworld" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="REST Request" id="6a4aaf68-0f20-4d9d-92a5-d6a69411f625" mediaType="application/json"><con:settings/><con:endpoint>http://localhost:8080</con:endpoint><con:request/><con:credentials><con:selectedAuthProfile>No Authorization</con:selectedAuthProfile><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:parameters/></con:restRequest></con:config></con:testStep><con:properties/>
   <con:reportParameters/>
-<con:breakPoints><con:testStepId>9a592d59-4b10-4215-9514-67faa01988d1</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase>
+</con:testCase>
