@@ -28,6 +28,11 @@
           <con:authType>No Authorization</con:authType>
         </con:credentials>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/ConversionRate"/>
+        <con:environmentSpec>
+          <con:entry environmentId="17a3ca51-d42f-483a-a9b4-c6f8f6bcb667">
+            <con:authProfile>No Authorization</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
       </con:request>
     </con:config>
   </con:testStep>
