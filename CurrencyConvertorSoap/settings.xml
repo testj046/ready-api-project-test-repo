@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:WsdlInterface" id="59cbe6ce-2c40-4d60-8bc6-81d8cbd9ccc4" wsaVersion="NONE" name="CurrencyConvertorSoap" type="wsdl" bindingName="{http://www.webserviceX.NET/}CurrencyConvertorSoap" soapVersion="1_1" anonymous="optional" definition="file:/C:/CurrencyConvertor_1.wsdl" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="59cbe6ce-2c40-4d60-8bc6-81d8cbd9ccc4fileName">CurrencyConvertorSoap</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints>
+    <con:endpoint>http://www.webservicex.com/CurrencyConvertor.asmx</con:endpoint>
+  </con:endpoints>
+</con:interface>
