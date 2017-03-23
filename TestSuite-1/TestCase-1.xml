@@ -48,6 +48,10 @@
       </con:request>
     </con:config>
   </con:testStep>
+  <con:testStep type="assertionteststep" name="Assertion" id="2c859e59-f1e2-417c-9c99-619541672038">
+    <con:settings/>
+    <con:config xsi:type="con:AssertionTestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"/>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
