@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:testCase id="816db12c-97ee-43cf-88d4-4e7a3a7303d1" discardOkResults="true" failOnError="true" failTestCaseOnErrors="true" keepSession="false" name="TestCase 1" searchProperties="true" xmlns:con="http://eviware.com/soapui/config">
+  <con:settings>
+    <con:setting id="816db12c-97ee-43cf-88d4-4e7a3a7303d1fileName">TestCase-1</con:setting>
+  </con:settings>
+  <con:savedRecentRuns>1</con:savedRecentRuns>
+  <con:testStep type="delay" name="Delay" id="9a592d59-4b10-4215-9514-67faa01988d1">
+    <con:settings/>
+    <con:config>
+      <delay>1000</delay>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="groovy" name="Groovy Script" id="50d928c1-1d5b-4bad-8240-1114c7993c04">
+    <con:settings/>
+    <con:config>
+      <script>log.info "Commit Me!"</script>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="request" id="371afa59-99f2-4f58-beb9-ec1255a1cffd" name="ConversionRate - Request 1">
+    <con:settings/>
+    <con:config xsi:type="con:RequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:interface>CurrencyConvertorSoap12</con:interface>
+      <con:operation>ConversionRate</con:operation>
+      <con:request name="ConversionRate - Request 1" outgoingWss="" incomingWss="" timeout="" sslKeystore="" useWsAddressing="false" useWsReliableMessaging="false" wssPasswordType="" id="b5dea0a9-2224-4857-960d-f4dd5129af97">
+        <con:settings/>
+        <con:encoding>UTF-8</con:encoding>
+        <con:endpoint>http://www.webservicex.com/CurrencyConvertor.asmx</con:endpoint>
+        <con:request><![CDATA[<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:web="http://www.webserviceX.NET/">\r
+   <soap:Header/>\r
+   <soap:Body>\r
+      <web:ConversionRate>\r
+         <web:FromCurrency>KHR</web:FromCurrency>\r
+         <web:ToCurrency>MDL</web:ToCurrency>\r
+      </web:ConversionRate>\r
+   </soap:Body>\r
+</soap:Envelope>]]></con:request>
+        <con:assertion type="SOAP Response" id="bb677b31-c513-4eb2-bbf2-0ebfdafaf539" name="SOAP Response"/>
+        <con:credentials>
+          <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/CurrencyConvertorSoap/ConversionRateRequest"/>
+        <con:environmentSpec>
+          <con:entry environmentId="17a3ca51-d42f-483a-a9b4-c6f8f6bcb667">
+            <con:authProfile>No Authorization</con:authProfile>
+          </con:entry>
+        </con:environmentSpec>
+      </con:request>
+    </con:config>
+  </con:testStep>
+  <con:properties/>
+  <con:reportParameters/>
+</con:testCase>
