@@ -39,6 +39,7 @@
           <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
           <con:authType>No Authorization</con:authType>
         </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/CurrencyConvertorSoap/ConversionRateRequest"/>
         <con:environmentSpec>
           <con:entry environmentId="17a3ca51-d42f-483a-a9b4-c6f8f6bcb667">
@@ -46,6 +47,17 @@
           </con:entry>
         </con:environmentSpec>
       </con:request>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="properties" name="Properties" id="cae8c4a7-5986-493a-876f-5c24812f28d3">
+    <con:settings/>
+    <con:config xsi:type="con:PropertiesStep" saveFirst="true" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:properties>
+        <con:property>
+          <con:name>test</con:name>
+          <con:value/>
+        </con:property>
+      </con:properties>
     </con:config>
   </con:testStep>
   <con:properties/>

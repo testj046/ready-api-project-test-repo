@@ -13,6 +13,7 @@
   <con:wssContainer/>
   <con:databaseConnectionContainer/>
   <con:oAuth2ProfileContainer/>
+  <con:oAuth1ProfileContainer/>
   <con:environment id="17a3ca51-d42f-483a-a9b4-c6f8f6bcb667" name="Test">
     <con:service type="SOAP" name="CurrencyConvertorSoap">
       <con:endpoint authProfile="Inherit From Parent" username="" password="" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="">http://www.webservicex.com/CurrencyConvertor.asmx</con:endpoint>
