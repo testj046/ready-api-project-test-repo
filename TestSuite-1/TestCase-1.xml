@@ -55,7 +55,7 @@
       <con:properties>
         <con:property>
           <con:name>test</con:name>
-          <con:value/>
+          <con:value>adfafafaf</con:value>
         </con:property>
       </con:properties>
     </con:config>
