@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:interface xsi:type="con:RestService" id="dcc9f51c-5b1c-461d-9e37-281067f5fd08" wadlVersion="http://wadl.dev.java.net/2009/02" name="REST Service 1" type="rest" xmlns:con="http://eviware.com/soapui/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <con:settings>
+    <con:setting id="dcc9f51c-5b1c-461d-9e37-281067f5fd08fileName">REST-Service-1</con:setting>
+  </con:settings>
+  <con:definitionCache/>
+  <con:endpoints/>
+</con:interface>

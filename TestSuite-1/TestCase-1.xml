@@ -66,6 +66,22 @@
       <script>log.info "test"</script>
     </con:config>
   </con:testStep>
+  <con:testStep type="restrequest" name="REST Request" id="68f3bf55-fe4b-4bad-b2b0-859d874f8c7c">
+    <con:settings/>
+    <con:config service="REST Service 1" resourcePath="/" methodName="GET" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+      <con:restRequest name="REST Request" id="8930b848-7421-40ee-9837-5226cd19290d" mediaType="application/json">
+        <con:settings/>
+        <con:endpoint>https://www.soapui.org</con:endpoint>
+        <con:request/>
+        <con:credentials>
+          <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
+          <con:authType>No Authorization</con:authType>
+        </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
+        <con:parameters/>
+      </con:restRequest>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>

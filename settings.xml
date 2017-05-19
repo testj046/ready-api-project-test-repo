@@ -21,6 +21,9 @@
     <con:service type="SOAP" name="CurrencyConvertorSoap12">
       <con:endpoint authProfile="Inherit From Parent" username="" password="" domain="" incomingWss="" outgoingWss="" wssTimeToLive="" wssType="">http://www.webservicex.com/CurrencyConvertor.asmx</con:endpoint>
     </con:service>
+    <con:service type="REST" name="REST Service 1">
+      <con:endpoint authProfile="Inherit From Parent"/>
+    </con:service>
     <con:databaseConnectionContainer/>
   </con:environment>
   <con:authRepository/>
