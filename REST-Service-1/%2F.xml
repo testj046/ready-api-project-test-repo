@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<con:resource name="/" path="/" id="b6f1a673-4bba-449f-98bc-4ac676d884bd" xmlns:con="http://eviware.com/soapui/config">
+<con:resource name="/" path="/" id="b6f1a673-4bba-449f-98bc-4ac676d884bd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:con="http://eviware.com/soapui/config">
   <con:settings>
     <con:setting id="b6f1a673-4bba-449f-98bc-4ac676d884bdfileName">%2F</con:setting>
   </con:settings>
@@ -10,6 +10,10 @@
     <con:request name="GET Request" id="8930b848-7421-40ee-9837-5226cd19290d" mediaType="application/json">
       <con:settings/>
       <con:endpoint>https://www.soapui.org</con:endpoint>
+      <con:credentials>
+        <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
+        <con:authType>No Authorization</con:authType>
+      </con:credentials>
       <con:parameters/>
     </con:request>
   </con:method>

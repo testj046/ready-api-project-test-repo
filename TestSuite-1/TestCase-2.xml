@@ -36,6 +36,12 @@
       </con:request>
     </con:config>
   </con:testStep>
+  <con:testStep type="groovy" name="Groovy Script" id="22d48a80-c8d7-4892-b31a-27ad132d95e7">
+    <con:settings/>
+    <con:config>
+      <script/>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
