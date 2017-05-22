@@ -27,6 +27,7 @@
           <con:selectedAuthProfile>No Authorization</con:selectedAuthProfile>
           <con:authType>No Authorization</con:authType>
         </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.webserviceX.NET/ConversionRate"/>
         <con:environmentSpec>
           <con:entry environmentId="17a3ca51-d42f-483a-a9b4-c6f8f6bcb667">
@@ -40,6 +41,12 @@
     <con:settings/>
     <con:config>
       <script/>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="groovy" name="Groovy Script 2" id="9aba267b-eda4-489a-a780-94ef206bfa88">
+    <con:settings/>
+    <con:config>
+      <script>log.info "test"</script>
     </con:config>
   </con:testStep>
   <con:properties/>
