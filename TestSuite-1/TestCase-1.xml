@@ -15,6 +15,7 @@
           <con:selectedAuthProfile>Inherit From Parent</con:selectedAuthProfile>
           <con:authType>No Authorization</con:authType>
         </con:credentials>
+        <con:jmsConfig JMSDeliveryMode="PERSISTENT"/>
         <con:parameters/>
       </con:restRequest>
     </con:config>
@@ -22,7 +23,7 @@
   <con:testStep type="delay" name="Delay" id="9a592d59-4b10-4215-9514-67faa01988d1">
     <con:settings/>
     <con:config>
-      <delay>1000</delay>
+      <delay>1001</delay>
     </con:config>
   </con:testStep>
   <con:testStep type="groovy" name="Groovy Script" id="50d928c1-1d5b-4bad-8240-1114c7993c04">
