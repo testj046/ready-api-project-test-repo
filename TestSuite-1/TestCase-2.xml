@@ -49,6 +49,12 @@
       <script>log.info "test"</script>
     </con:config>
   </con:testStep>
+  <con:testStep type="groovy" name="Groovy Script 3" id="b52696a4-44da-4bf4-8725-f3ca0b661a56">
+    <con:settings/>
+    <con:config>
+      <script>log.info "test"</script>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
