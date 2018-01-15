@@ -88,6 +88,18 @@
       <script/>
     </con:config>
   </con:testStep>
+  <con:testStep type="delay" name="Delay 2" id="9f26ddc0-4e24-44ab-9f1d-9aa34af6c696">
+    <con:settings/>
+    <con:config>
+      <delay>1000</delay>
+    </con:config>
+  </con:testStep>
+  <con:testStep type="delay" name="Delay 3" id="31a68b35-cd2e-485b-9d9c-c9d6d8c9681e">
+    <con:settings/>
+    <con:config>
+      <delay>1000</delay>
+    </con:config>
+  </con:testStep>
   <con:properties/>
   <con:reportParameters/>
 </con:testCase>
