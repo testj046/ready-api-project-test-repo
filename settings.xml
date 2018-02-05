@@ -12,6 +12,7 @@
   <con:properties/>
   <con:wssContainer/>
   <con:databaseConnectionContainer/>
+  <con:jmsConnectionContainer/>
   <con:oAuth2ProfileContainer/>
   <con:oAuth1ProfileContainer/>
   <con:environment id="17a3ca51-d42f-483a-a9b4-c6f8f6bcb667" name="Test">
@@ -25,6 +26,7 @@
       <con:endpoint authProfile="Inherit From Parent"/>
     </con:service>
     <con:databaseConnectionContainer/>
+    <con:jmsConnectionContainer/>
   </con:environment>
   <con:authRepository/>
   <con:tags/>
